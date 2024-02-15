@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{7e285a6e-07b9-4c75-8ca9-b11bbc678862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{d38c1128-0bb7-4394-b175-a4aa89d7f7d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui\Fonts">
+      <UniqueIdentifier>{8f756567-beae-464f-8fee-cf29638db783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Auth">
+      <UniqueIdentifier>{777c7624-c923-4af6-bba8-640014e8730d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Updater">
+      <UniqueIdentifier>{d2b1d47b-af87-434a-ae18-8a7cdc532175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui\Native ImGui">
+      <UniqueIdentifier>{78ee770c-ff9b-44a6-86c4-1de20aed0bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui\Custom ImGui">
+      <UniqueIdentifier>{64f8bebc-c865-4de5-bd7c-bd3017e119f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Updater\Misc">
+      <UniqueIdentifier>{7845283f-0aea-469f-8016-82dcf6f5b4ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Discord">
+      <UniqueIdentifier>{451f5556-1086-4ca3-aeb1-6f3ac3802634}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tricks.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="updater.cpp">
+      <Filter>Updater</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui\Native ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>ImGui\Native ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui\Native ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp">
+      <Filter>ImGui\Native ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGui\Native ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>ImGui\Native ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGui\Native ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_custom.cpp">
+      <Filter>ImGui\Custom ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Updater\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="RunPE.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\connection_win.cpp">
+      <Filter>Discord</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\Discord.cpp">
+      <Filter>Discord</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\discord_register_win.cpp">
+      <Filter>Discord</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\discord_rpc.cpp">
+      <Filter>Discord</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\rpc_connection.cpp">
+      <Filter>Discord</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\serialization.cpp">
+      <Filter>Discord</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="logo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_tricks.hpp">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="fa_solid_900.h">
+      <Filter>ImGui\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="font_awesome.h">
+      <Filter>ImGui\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="imspinner.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="PRTRootUIBOLD.h">
+      <Filter>ImGui\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts.h">
+      <Filter>ImGui\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\auth.hpp">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="skStr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="credentials.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="updater.h">
+      <Filter>Updater</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui\Native ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui\Native ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx9.h">
+      <Filter>ImGui\Native ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui\Native ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>ImGui\Native ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>ImGui\Native ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>ImGui\Native ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>ImGui\Native ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_custom.h">
+      <Filter>ImGui\Custom ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Updater\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Updater\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_notify.h">
+      <Filter>ImGui\Native ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_settings.h">
+      <Filter>ImGui\Native ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="RunPE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\backoff.h">
+      <Filter>Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\connection.h">
+      <Filter>Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\Discord.h">
+      <Filter>Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\discord_register.h">
+      <Filter>Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\discord_rpc.h">
+      <Filter>Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\msg_queue.h">
+      <Filter>Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\rpc_connection.h">
+      <Filter>Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\serialization.h">
+      <Filter>Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="perm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="changer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libcurl.lib">
+      <Filter>Auth</Filter>
+    </Library>
+    <Library Include="library_x64.lib">
+      <Filter>Auth</Filter>
+    </Library>
+    <Library Include="driver.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Discord\CMakeLists.txt">
+      <Filter>Discord</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
